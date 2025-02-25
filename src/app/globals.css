@@ -2,20 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.button {  
+    position: relative;  
+    overflow: hidden;  
+    padding: 10px 20px;    
+    color: white;  
+    border: 10px white;
+    border-radius: 40px;  
+    cursor: pointer;  
+}  
+
+.button:hover::after {  
+    content: '';  
+    position: absolute;  
+    border-radius: 50%;  
+    background: rgba(255, 255, 255, 0.7); 
+    width: 300%;  
+    height: 300%;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%) scale(0);  
+    animation: ripple 1s forwards;  
+    animation-iteration-count: infinite ;
+    animation-duration: 2s;
+}  
+
+@keyframes ripple {  
+    to {  
+        transform: translate(-50%, -50%) scale(1);  
+        opacity: 0;  
+    }  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+/* text gradient  */
+  
+.text-gradient {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: transparent; 
+    background: linear-gradient(  
+        270deg,  
+        rgb(224, 160, 160),  
+        rgb(211, 36, 68),  
+        rgb(246, 167, 196),  
+        rgb(240, 106, 128),  
+        rgb(234, 46, 105),  
+        rgb(226, 93, 135)  
+    );  
+    background-size: 400%; /* Increase the size for smoother animation */  
+    -webkit-background-clip: text; /* For WebKit/Blink (Chrome, Safari) */  
+    background-clip: text; /* Standard background-clip */  
+    animation: gradient-animation 5s linear infinite; /* Control speed of animation */  
+}  
+  
+@keyframes gradient-animation {  
+    0% {  
+        background-position: 0% 50%; /* Starting position of the gradient */  
+    }  
+    100% {  
+        background-position: 100% 50%; /* Move to the right for animation */  
+    }  
+}
+
+/*  navigation slide side bar*/  
+
+/* WebKit browsers (Chrome, Safari) */  
+::-webkit-scrollbar {  
+    width: 12px; /* Width of the scrollbar */  
+  }  
+  
+  ::-webkit-scrollbar-track {  
+    background: #f7aac0; /* Background of the scrollbar track */  
+  }  
+  
+  ::-webkit-scrollbar-thumb {  
+    background:  rgb(237, 59, 92); /* Scrollbar color */  
+    border-radius: 10px; /* Rounded edges */  
+  }  
+  /* Firefox */  
+  html {  
+    scrollbar-color:  rgb(240, 63, 95), #f7aac0; /* Thumb color and track color */  
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
