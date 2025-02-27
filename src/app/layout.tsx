@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Cursor from "@/components/theme/Cursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,8 +66,9 @@ export default function RootLayout({
 <hr className="border border-black "/>
        </div>  
        <div className="container max-w-[1440px] mx-auto">  
+       
         {children}
-
+     <Cursor/>
 
         </div>
         </ThemeProvider>

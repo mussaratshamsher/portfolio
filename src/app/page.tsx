@@ -24,13 +24,13 @@ export default function Home() {
 
  <div className="flex flex-col gap-5 md:gap-3 mt-4 md:mt-8">
   <Link href={'/about'}><Button className="w-full mx-auto h-14 bg-transparent shadow-lg hover:shadow-xl 
-  border border-black rounded-3xl pt-5 button"> ABOUT ME</Button></Link>
+  border border-black rounded-3xl pt-5 mb-2 button "> ABOUT ME</Button></Link>
   
   <Link href={'/portfolio'}><Button className="w-full mx-auto h-14 border-white bg-transparent shadow-lg 
-  hover:shadow-xl rounded-3xl pt-5 button"> SKILLS & PROJECTS </Button></Link>
+  hover:shadow-xl rounded-3xl pt-5 mb-2 button"> SKILLS & PROJECTS </Button></Link>
 
   <Link href={'/contact'}><Button className="w-full mx-auto h-14 border-white bg-transparent 
-  shadow-lg hover:shadow-xl rounded-3xl pt-5 button"> CONTACT</Button></Link>
+  shadow-lg hover:shadow-xl rounded-3xl pt-5 mb-2 button"> CONTACT</Button></Link>
 
                             {/*social links navigation  */}
 
