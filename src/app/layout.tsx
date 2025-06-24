@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Cursor from "@/components/theme/Cursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +36,8 @@ export default function RootLayout({
     <html lang="en">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet"></link>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -64,15 +65,16 @@ export default function RootLayout({
          shadow-md">Resume</Button></Link>
        </div>
 <hr className="border border-black "/>
-       </div>  
-       <div className="container max-w-[1440px] mx-auto">  
+       </div>   
        
         {children}
-     <Cursor/>
-
-        </div>
+    
         </ThemeProvider>
-       
+         <script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+  const swiper = new Swiper(...)
+</script>
       </body>
 
     

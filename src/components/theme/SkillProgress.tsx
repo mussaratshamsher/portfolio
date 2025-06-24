@@ -6,9 +6,9 @@ const skills = [
   { name: 'HTML', value: 90 },  
   { name: 'CSS', value: 90 },  
   { name: 'Tailwind CSS', value: 95 },  
-  { name: 'TypeScript', value: 85 },  
-  { name: 'JavaScript', value: 80 },  
-  { name: 'Next.js', value: 95 },  
+  { name: 'TypeScript', value: 85 },    
+  { name: 'Next.js', value: 95 }, 
+  { name: 'Python', value: 90},  
 ];  
 
 const SkillProgress = () => {  

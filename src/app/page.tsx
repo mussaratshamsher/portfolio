@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import AnimatedText from "./../components/theme/AnimatedText"
-import { Bird, Github, Linkedin } from "lucide-react";
+import { Bird, Github, Linkedin, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsWhatsapp } from "react-icons/bs";
@@ -38,19 +38,25 @@ export default function Home() {
 
 <Link href='https://www.linkedin.com/in/mussarat-shamsher-b7b4072b8/' target="blank"
  className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
- rounded-full hover:shadow-lg shadow-gray-200"><Linkedin className="hover:scale-125 duration-300"/></Link>
+ rounded-full hover:shadow-lg shadow-gray-200"><Linkedin className="hover:scale-125 duration-300"/>
+ </Link>
 <Link href='https://github.com/mussaratshamsher' target="blank"
  className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
- rounded-full hover:shadow-lg shadow-gray-200"><Github className="hover:scale-125 duration-300"/></Link>
-<Link href='https://www.freelancer.com/u/MussaratShamsher' target="blank"
+ rounded-full hover:shadow-lg shadow-gray-200"><Github className="hover:scale-125 duration-300"/>
+ </Link>
+ <Link href='https://www.freelancer.com/u/MussaratShamsher' target="blank"
 className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md
- rounded-full hover:shadow-lg shadow-gray-200"> <Bird className="hover:scale-125 duration-300"/></Link>
+ rounded-full hover:shadow-lg shadow-gray-200"> <Twitter className="hover:scale-125 duration-300"/>
+ </Link>
 <Link href='https://wa.me/+923182593455' target="blank"
 className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md
- rounded-full hover:shadow-lg shadow-gray-200"><BsWhatsapp className="hover:scale-125 duration-300"/> </Link>
- </div>
-
-     
+ rounded-full hover:shadow-lg shadow-gray-200"><BsWhatsapp className="hover:scale-125 duration-300"/> 
+ </Link>
+ <Link href='https://www.freelancer.com/u/MussaratShamsher' target="blank"
+className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md
+ rounded-full hover:shadow-lg shadow-gray-200"> <Bird className="hover:scale-125 duration-300"/>
+ </Link>
+ </div>  
 
            </div>
          </div> 
