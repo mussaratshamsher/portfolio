@@ -65,7 +65,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/mussarat-shamsher-b7b4072b8/"
             target="blank"
             className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
-            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
+     rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
             <Linkedin className="hover:scale-125 duration-300 " />
           </Link>
 
@@ -73,7 +73,7 @@ export default function Home() {
             href="https://github.com/mussaratshamsher"
             target="blank"
             className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
-            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
+ rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
             <Github className="hover:scale-125 duration-300" />
           </Link>
 
@@ -81,7 +81,7 @@ export default function Home() {
             href="https://x.com/_mandaco_/"
             target="blank"
             className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md
-             rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
+rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
             <Twitter className="hover:scale-125 duration-300 " />
           </Link>
 
@@ -89,14 +89,14 @@ export default function Home() {
             href="https://wa.me/+923182593455"
             target="blank"
             className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
-            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white" >
+  rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
             <BsWhatsapp className="hover:scale-125 duration-300 font-bold" />
           </Link>
 
           <Link
             href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
-            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
+     className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
+ rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
             <SiFreelancer className="hover:scale-125 duration-300" />
           </Link>
         </div>
