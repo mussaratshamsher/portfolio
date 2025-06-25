@@ -20,7 +20,7 @@ export default function Portfolio() {
 {/* section 1  */}
 
    <div>  <h1 className='text-lg md:text-2xl'  id='googlefont'><b>My Story</b></h1>
-    <p className='my-5 text-justify indent-10 md:indent-20'> I possess a strong foundation in web development, with expertise in 
+    <p className='my-5 text-justify indent-10 md:indent-20 mx-2 md:mx-0'> I possess a strong foundation in web development, with expertise in 
   several key technologies. My proficiency in HTML and CSS ensures that I can create visually appealing and well-structured web 
  pages. I have a solid command of Tailwind CSS, which allows me to design responsive layouts efficiently with utility-first styling. 
  My knowledge of TypeScript empowers me to develop dynamic and interactive web applications, ensuring robust functionality and type safety.
@@ -47,7 +47,7 @@ export default function Portfolio() {
   
 <div className='px-10 md:px-20 lg:px-40'>
  <h1 className='text-lg md:text-2xl font-bold mt-3 p-2' id='googlefont'>About My Projects</h1>
-<p className='text-justify'>In my recent web development projects, I have effectively combined HTML, CSS, Tailwind CSS, TypeScript, 
+<p className='text-justify mx-2 md:0'>In my recent web development projects, I have effectively combined HTML, CSS, Tailwind CSS, TypeScript, 
  and Next.js to craft responsive, user-friendly interfaces. By utilizing Tailwind CSS, I streamlined the design process with utility-first
 styling, resulting in clean and maintainable code. My strong proficiency in TypeScript enabled me to build reliable, bug-free applications,
  while JavaScript empowered me to implementdynamic and interactive features. A notable project was the development of a portfolio website 
@@ -64,7 +64,7 @@ styling, resulting in clean and maintainable code. My strong proficiency in Type
 
   <div className='flex flex-col mt-5'>
      <h1 className="text-lg md:text-2xl font-bold " id='googlefont'>Business & Ecommerce</h1>  
-     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20'>
+     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20 mx-2 md:0'>
     My unique e-commerce web applications that showcase my skills in frontend development, UI implementation, and responsive design.
  Hackthon Ecommerce is a dynamic storefront featuring a clean layout, interactive navigation, and responsive product cards. It includes 
  features like category filtering, product previews, pricing information, and a user-friendly shopping experience. The design is minimalistic
@@ -94,7 +94,7 @@ optimization. The tech stack includes React, Tailwind CSS,css, TypeScript, and N
   </div>
   <div className='flex flex-col mt-5'>
     <h1 className="text-lg md:text-2xl font-bold " id='googlefont'>Resturant and Company Websites</h1>  
-     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20'>
+     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20 mx-2 md:0'>
 I have developed several responsive and visually engaging web projects using modern frontend technologies.
 Flavour Fusion Restaurant Website features smooth navigation, menu highlights, image galleries, and a contact footer.
 Built with Next.js, React, Tailwind CSS, and Framer Motion, it ensures elegant UX and optimized performance.
@@ -120,7 +120,7 @@ development efficiency.</p>
 
   <div className='flex flex-col mt-5'>
      <h1 className="text-lg md:text-2xl font-bold " id='googlefont'>Portfolio & Resume Websites</h1>  
-     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20'>
+     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20 mx-2 md:0'>
 My primary portfolio website built with modern web technologies including Next.js and Tailwind CSS.
 This site includes detailed case studies, animated sections, image galleries, and contact forms.
 It is fully responsive, performance-optimized, and designed to convert visitors into leads or clients.
@@ -156,7 +156,7 @@ It is fast, SEO-friendly, and deployable in seconds—ideal for professional bra
   </div>
   <div className='flex flex-col mt-5'>
     <h1 className="text-lg md:text-2xl font-bold " id='googlefont'>Educational Projects</h1>  
-     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20'>
+     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20 mx-2 md:0'>
 Multilingual AI Agent App provides real-time language translation powered by advanced AI models. It supports multiple languages and can 
 seamlessly switch between them, making global communication accessible.The app features an intuitive interface and uses Streamlit reactive
  UI for instant feedback. Secure Data Encryption App allows users to encrypt and decrypt sensitive text data securely. It uses Python 
@@ -179,7 +179,7 @@ feature responsive layouts for desktop and mobile accessibility. Each project is
 
   <div className='flex flex-col mt-5'>
      <h1 className="text-lg md:text-2xl font-bold " id='googlefont'>Utility Projects</h1>  
-     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20'>
+     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20 mx-2 md:0'>
 Caesar Cipher Encoder/Decoder App.A classic cryptography tool built in Streamlit that allows users to encode and decode messages using the Caesar Cipher technique, reinforcing concepts of string manipulation and encryption.
 Personal Library Management System. A simple and effective tool for users to add, view, and manage a list of books. It features a clean UI and highlights CRUD operations using Python and Streamlit.
 Python Assignment Challenge App. This app serves as a practice platform featuring Python-based challenges to sharpen programming logic and problem-solving skills for beginners and intermediate learners.
@@ -209,7 +209,7 @@ Clear documentation and consistent naming conventions improve code readability a
   </div>
   <div className='flex flex-col mt-5'>
     <h1 className="text-lg md:text-2xl font-bold " id='googlefont'>Games and Fun</h1>  
-     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20'>
+     <p className='text-justify mt-2 md:mt-4 indent-10 md:indent-20 mx-2 md:0'>
 Mystery Adventure Game An interactive text-based Python game built with Streamlit, engaging users in a decision-driven mystery journey 
 with multiple outcomes. Combines storytelling with logical branching to enhance user experience and keep engagement high.
 Emphasizes creativity in narrative flow and dynamic user inputs for personalized adventures.

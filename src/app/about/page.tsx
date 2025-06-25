@@ -46,7 +46,7 @@ export default function About() {
       <ScrollOverlap>
         <div className="flex flex-col mt-3 md:mt-5 lg:mt-20 mb-5 lg:mb-32">
           <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10" id="googlefont">Why Hire Me?</h1>
-          <p className="text-justify mx-1 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
+          <p className="text-justify mx-2 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
             Choose me for my passion for building modern web applications and my commitment to creating responsive and visually appealing user
             experiences. With a strong foundation in technologies like Next.js, TypeScript, and Python, I am well-equipped to tackle a variety
             of frontend and full-stack challenges. I am dedicated to continuous learning and bringing creativity, clarity, and commitment to every
@@ -60,7 +60,7 @@ export default function About() {
       <ScrollOverlap>
         <div className="flex flex-col mt-3 md:mt-5 mb-5 lg:mb-32">
           <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10" id="googlefont">Get in Touch</h1>
-          <p className="text-justify mx-1 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
+          <p className="text-justify mx-2 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
             I am always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!
 
             {/*social links navigation  */}
