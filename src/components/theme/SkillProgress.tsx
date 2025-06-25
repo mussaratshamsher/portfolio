@@ -6,7 +6,7 @@ const skills = [
   { name: 'HTML', value: 90 },  
   { name: 'CSS', value: 90 },  
   { name: 'Tailwind CSS', value: 95 },  
-  { name: 'TypeScript', value: 85 },    
+  { name: 'TypeScript', value: 90 },    
   { name: 'Next.js', value: 95 }, 
   { name: 'Python', value: 90},  
 ];  
@@ -27,7 +27,7 @@ const SkillProgress = () => {
 
   return (  
     <div className="max-w-md mx-auto"> 
-     <h1 className='text-lg md:text-2xl'><b> My Skills</b></h1> 
+     <h1 className='text-lg md:text-2xl' id='googlefont'><b> My Skills</b></h1> 
       {skills.map((skill) => (  
         <div key={skill.name} className="mb-4"> 
         <div className='flex justify-between'>

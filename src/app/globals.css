@@ -47,12 +47,12 @@ body{
     color: transparent; 
     background: linear-gradient(  
         270deg,  
-        rgb(224, 160, 160),  
+        rgb(8, 2, 2),  
         rgb(211, 36, 68),  
         rgb(246, 167, 196),  
-        rgb(240, 106, 128),  
+        rgb(38, 30, 31),  
         rgb(234, 46, 105),  
-        rgb(226, 93, 135)  
+        rgb(45, 44, 44)  
     );  
     background-size: 400%; /* Increase the size for smoother animation */  
     -webkit-background-clip: text; /* For WebKit/Blink (Chrome, Safari) */  
@@ -76,6 +76,27 @@ body{
  #googlefont{
     font-family: "Fraunces", serif;
  } 
+/* #services scroll bar */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  animation-play-state: running;
+  width: max-content;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
 
 /*  navigation slide side bar*/  
 

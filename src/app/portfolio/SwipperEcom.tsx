@@ -7,9 +7,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
-import "./SwiperGallery.css"; // Make sure this is only styling and not breaking SSR
+import "./SwiperGallery.css"; 
 
 import type { Swiper as SwiperType } from "swiper";
+import Image from "next/image";
 
 const images = [
   {
@@ -40,7 +41,7 @@ export default function SwiperEcom() {
           style={{
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
-          } as React.CSSProperties & Record<string, any>}
+          } as React.CSSProperties & Record<string, string>}
           modules={[Navigation, Thumbs, Autoplay]}
           spaceBetween={10}
           navigation
@@ -52,7 +53,7 @@ export default function SwiperEcom() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <a href={image.link} target="_blank" rel="noopener noreferrer">
-                <img src={image.src} alt={`Slide ${index + 1}`} />
+                <Image src={image.src} alt={`Slide ${index + 1}`} width={100} height={100}/>
               </a>
             </SwiperSlide>
           ))}
@@ -70,7 +71,7 @@ export default function SwiperEcom() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <a href={image.link} target="_blank" rel="noopener noreferrer">
-                <img src={image.src} alt={`Thumb ${index + 1}`} />
+                <Image src={image.src} alt={`Thumb ${index + 1}`} width={100} height={100}/>
               </a>
             </SwiperSlide>
           ))}

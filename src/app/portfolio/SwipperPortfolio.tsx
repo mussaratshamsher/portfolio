@@ -10,6 +10,7 @@ import "swiper/css/free-mode";
 import "./SwiperGallery.css"; 
 
 import type { Swiper as SwiperType } from "swiper";
+import Image from "next/image";
 
 const images = [
   {
@@ -44,7 +45,7 @@ export default function SwiperPortfolio() {
           style={{
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
-          } as React.CSSProperties & Record<string, any>}
+          } as React.CSSProperties & Record<string, string>}
           modules={[Navigation, Thumbs, Autoplay]}
           spaceBetween={10}
           navigation
@@ -55,7 +56,7 @@ export default function SwiperPortfolio() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <a href={image.link} target="_blank" rel="noopener noreferrer">
-                <img src={image.src} alt={`Slide ${index + 1}`} />
+                <Image src={image.src} alt={`Slide ${index + 1}`} width={100} height={100}/>
               </a>
             </SwiperSlide>
           ))}
@@ -74,7 +75,7 @@ export default function SwiperPortfolio() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <a href={image.link} target="_blank" rel="noopener noreferrer">
-                <img src={image.src} alt={`Thumb ${index + 1}`} />
+                <Image src={image.src} alt={`Thumb ${index + 1}`} width={100} height={100}/>
               </a>
             </SwiperSlide>
           ))}

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import ModeToggle from '@/components/theme/ModeToggle'
@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  variable: '--font-fraunces',
+})
 
 export const metadata: Metadata = {
   title: "Mussarat Shamsher",
@@ -33,19 +37,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={geistSans.className}>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet"></link>
-  <link
+  <Link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet"/>
+  <Link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} antialiased`}
       >
         <ThemeProvider attribute="class"
             defaultTheme="system"
@@ -60,7 +64,7 @@ export default function RootLayout({
          className="h-20 w-full"/>
          <div className='flex justify-end -mt-14 gap-5 mr-10'>
          <ModeToggle/>
-        <Link href='https://milestone1-personal-static-resume.vercel.app/' target="blank">
+        <Link href="https://milestone1-personal-static-resume.vercel.app/" target="blank">
          <Button className="text-white bg-black w-24 p-5 rounded-3xl border
          shadow-md">Resume</Button></Link>
        </div>
@@ -71,9 +75,7 @@ export default function RootLayout({
     
         </ThemeProvider>
          <script type="module">
-  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-
-  const swiper = new Swiper(...)
+  
 </script>
       </body>
 
