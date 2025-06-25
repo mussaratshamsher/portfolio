@@ -90,14 +90,14 @@ rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-whit
             target="blank"
             className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
   rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
-            <BsWhatsapp className="hover:scale-125 duration-300 font-bold" />
+            <BsWhatsapp className="hover:scale-150 duration-300 font-bold" />
           </Link>
 
           <Link
             href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
      className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
  rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white hover:text-black">
-            <SiFreelancer className="hover:scale-125 duration-300" />
+            <SiFreelancer className="hover:scale-150 duration-300" />
           </Link>
         </div>
       </div>
