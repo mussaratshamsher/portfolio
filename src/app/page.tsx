@@ -37,21 +37,24 @@ export default function Home() {
       </div>
 
       {/* buttons  section */}
-      <div className="flex flex-col gap-5 md:gap-3 mt-4 md:mt-8">
+      <div className="flex flex-col gap-5 md:gap-3 mt-4 md:mt-8 ">
         <Link href="/about">
-          <Button className="w-full mx-auto h-14 bg-transparent shadow-lg hover:shadow-xl border border-black rounded-3xl pt-5 mb-2 button">
+          <Button className="w-full mx-auto h-14 bg-transparent shadow-lg hover:shadow-xl border border-black
+          text-lg bg-gradient-to-r from-[#f03a6a] to-[#ff7e5f] rounded-3xl pt-5 mb-2 button">
             ABOUT ME
           </Button>
         </Link>
 
         <Link href="/portfolio">
-          <Button className="w-full mx-auto h-14 border-white bg-transparent shadow-lg hover:shadow-xl rounded-3xl pt-5 mb-2 button">
+          <Button className="w-full mx-auto h-14 border-white bg-transparent shadow-lg hover:shadow-xl 
+           text-lg bg-gradient-to-r from-[#c3345a] to-[#ff5f6c] rounded-3xl pt-5 mb-2 button">
             SKILLS & PROJECTS
           </Button>
         </Link>
 
         <Link href="/contact">
-          <Button className="w-full mx-auto h-14 border-white bg-transparent shadow-lg hover:shadow-xl rounded-3xl pt-5 mb-2 button">
+          <Button className="w-full mx-auto h-14 border-white bg-transparent shadow-lg hover:shadow-xl 
+           text-lg bg-gradient-to-r from-[#f03a6a] to-[#ff7e5f] rounded-3xl pt-5 mb-2 button">
             CONTACT
           </Button>
         </Link>
@@ -61,39 +64,39 @@ export default function Home() {
           <Link
             href="https://www.linkedin.com/in/mussarat-shamsher-b7b4072b8/"
             target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
-          >
-            <Linkedin className="hover:scale-125 duration-300" />
+            className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
+            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
+            <Linkedin className="hover:scale-125 duration-300 " />
           </Link>
 
           <Link
             href="https://github.com/mussaratshamsher"
             target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
-          >
+            className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
+            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
             <Github className="hover:scale-125 duration-300" />
           </Link>
 
           <Link
             href="https://x.com/_mandaco_/"
             target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
-          >
-            <Twitter className="hover:scale-125 duration-300" />
+            className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md
+             rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
+            <Twitter className="hover:scale-125 duration-300 " />
           </Link>
 
           <Link
             href="https://wa.me/+923182593455"
             target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
-          >
+            className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
+            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white" >
             <BsWhatsapp className="hover:scale-125 duration-300 font-bold" />
           </Link>
 
           <Link
             href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
-          >
+            className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md 
+            rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-800 hover:bg-white">
             <SiFreelancer className="hover:scale-125 duration-300" />
           </Link>
         </div>
