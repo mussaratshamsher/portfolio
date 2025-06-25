@@ -75,7 +75,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href="https://www.freelancer.com/u/MussaratShamsher"
+            href="https://x.com/_mandaco_/"
             target="blank"
             className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
           >

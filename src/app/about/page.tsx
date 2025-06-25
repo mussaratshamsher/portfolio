@@ -65,29 +65,28 @@ export default function About() {
 
             {/*social links navigation  */}
             <div className="w-full mx-auto flex gap-2 md:gap-4 pt-3 justify-center animate_animated animate__backInUp mt-5 lg:mt-10">
-              <Link href="https://www.linkedin.com/in/mussarat-shamsher-b7b4072b8/" target="blank"
-                className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
-                rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"><Linkedin className="hover:scale-125 duration-300" />
+<Link href="https://www.linkedin.com/in/mussarat-shamsher-b7b4072b8/" target="blank"
+className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
+rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"><Linkedin className="hover:scale-125 duration-300" />
               </Link>
-              <Link href="https://github.com/mussaratshamsher" target="blank"
-                className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
-                rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"><Github className="hover:scale-125 duration-300" />
+<Link href="https://github.com/mussaratshamsher" target="blank"
+className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md 
+rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"><Github className="hover:scale-125 duration-300" />
               </Link>
-              <Link href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
-                className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md
-                rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"> <Twitter className="hover:scale-125 duration-300" />
+ <Link href="https://x.com/_mandaco_/" target="blank"
+className="animate__animated animate__backInUp animate__delay-2s p-3 md:p-5 border shadow-md
+rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"> <Twitter className="hover:scale-125 duration-300" />
               </Link>
-              <Link href="https://wa.me/+923182593455" target="blank"
-                className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md
-                rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"><BsWhatsapp className="hover:scale-125 duration-300" />
+<Link href="https://wa.me/+923182593455" target="blank"
+  className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md
+rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168,34,85)]"><BsWhatsapp className="hover:scale-125 duration-300" />
               </Link>
-              <Link
-            href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
-            className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md rounded-full hover:shadow-lg shadow-gray-200"
-          >
-            <SiFreelancer className="hover:scale-150 duration-300 delay-300" />
+<Link href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
+className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md
+ rounded-full hover:shadow-lg shadow-gray-200">
+<SiFreelancer className="hover:scale-150 duration-300 delay-300" />
           </Link>
-            </div>
+         </div>
             <hr className="mx-5 md:mx-10 mt-10 lg:mt-20" />
             <hr className="mx-5 md:mx-10" />
           </p>
