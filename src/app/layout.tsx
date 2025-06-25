@@ -24,11 +24,29 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: "Mussarat Shamsher",
-  description: "Frontend Developer, UI/UX Designer, Web Developer",
+   title: 'Mussarat Shamsher | Full Stack & Frontend Developer',
+  description: 'Portfolio website showcasing my work as a frontend and full-stack web developer specializing in Next.js, TypeScript, and Tailwind CSS.',
   icons: {  
    icon: "/images/logo.png",   
   },
+  keywords: ['Next.js developer', 'Frontend developer', 'Full-stack developer', 'Portfolio', 'Web development', 'Tailwind CSS', 'React developer'],
+  authors: [{ name: 'Mussarat Shamsher' }],
+  openGraph: {
+    title: 'Mussarat Shamsher | Web Developer Portfolio',
+    description: 'Discover projects, skills, and services offered by Mussarat Shamsher.',
+    url: 'https://portfolio-mussarat-shamsher.vercel.app',
+    siteName: 'Mussarat Portfolio',
+    images: [
+      {
+        url: 'https://portfolio-mussarat-shamsher.vercel.app/og-image.png', // ✅ Create a nice Open Graph image for social shares
+        width: 1200,
+        height: 630,
+        alt: 'Mussarat Portfolio Screenshot',
+      },
+    ],
+    type: 'website',
+  },
+
 };
 
 export default function RootLayout({
