@@ -84,7 +84,7 @@ rounded-full hover:shadow-lg shadow-gray-200 hover:shadow-gray-300 text-[rgb(168
 <Link href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
 className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md
  rounded-full hover:shadow-lg shadow-gray-200">
-<SiFreelancer className="hover:scale-150 duration-300 delay-300" />
+<SiFreelancer className="hover:scale-150 duration-300 delay-300 text-[rgb(168,34,85)]" />
           </Link>
          </div>
             <hr className="mx-5 md:mx-10 mt-10 lg:mt-20" />
