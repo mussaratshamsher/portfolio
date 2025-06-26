@@ -17,6 +17,7 @@ export default function About() {
       <ScrollOverlap>
         <div className="flex flex-col mt-5 md:mt-10 lg:mt-20 mb-5 lg:mb-10">
           <h1 className="text-gradient text-xl md:text-2xl lg:text-4xl font-bold text-center" id="googlefont">Meet Mussarat Shamsher <br />
+           <hr className="mx-10 md:hidden lg:hidden mb-5" />
             <span className="text-gradient text-lg md:text-xl mt-5 lg:mt-10">Building Tech that Matters</span></h1>
           <p className="text-justify mx-2 md:mx-10 lg:mx-20 text-base sm:font-thin font-semibold mt-5 lg:mt-10">I am a passionate AI Developer
             with a Master degree in Economics, now fully immersed in the evolving
