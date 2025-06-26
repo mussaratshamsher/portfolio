@@ -35,7 +35,7 @@ export default function TechStack() {
     <div>
          <hr className='mx-5 md:mx-10 mt-5'/>
         <hr className='mx-5 md:mx-10 mb-5 md:mb-10 lg:mb-20'/>
-       <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10" id="googlefont">💼 Services I Provide</h1>
+       <h1 className="text-xl lg:text-3xl font-bold text-center mt-10 md:mt-5 lg:mt-10" id="googlefont">💼 Services I Provide</h1>
         
         <div className="overflow-hidden w-full mt-3 md:mt-5 lg:mt-20 lg:mb-20 mb-5">
   <div className="animate-scroll flex gap-5">
