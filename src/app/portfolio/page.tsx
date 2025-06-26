@@ -14,7 +14,19 @@ import SwipperGames from './SwipperGames';
 
 export default function Portfolio() {
   return (
-    <div className="p-3 md:px-5 lg:px-10 bg-white dark:bg-black text-black dark:text-white">
+    <div className="p-3 md:px-5 lg:px-10 bg-white dark:bg-black text-black dark:text-white
+    container max-w-[1440px] mx-auto">
+
+      {/* Buttons for 2xl and below  */}
+  <Link href="/">
+    <Button className="bg-[#f03a6a] hover:bg-[#e0577c] hover:text-white duration-300 w-16 md:w-28 h-10 
+    rounded-2xl shadow-md hover:font-bold mt-4 fixed top-3 left-5 2xl:hidden"> Home</Button>
+  </Link>
+  <Link href="/">
+    <Button className="bg-[#f03a6a] hover:bg-[#e0577c] hover:text-white duration-300 w-16 md:w-28 h-10 
+    rounded-2xl shadow-md hover:font-bold -mt-5 right-5 hidden 2xl:inline-flex"> Home</Button>
+  </Link>
+  {/* buttons end here  */}
     <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20">
 
 {/* section 1  */}

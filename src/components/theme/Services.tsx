@@ -30,29 +30,33 @@ export const services = [
 ]
 
 
-export default function TechStack() {
+export default function Services() {
   return (
     <div>
-         <hr className='mx-5 md:mx-10 mt-5'/>
-        <hr className='mx-5 md:mx-10 mb-5 md:mb-10 lg:mb-20'/>
-       <h1 className="text-xl lg:text-3xl font-bold text-center mt-10 md:mt-5 lg:mt-10" id="googlefont">💼 Services I Provide</h1>
-        
-        <div className="overflow-hidden w-full mt-3 md:mt-5 lg:mt-20 lg:mb-20 mb-5">
-  <div className="animate-scroll flex gap-5">
-    {[...services, ...services].map((item, index) => (
-      <div key={index} className="flex-shrink-0 w-64 p-4 border rounded-2xl shadow-md bg-white dark:bg-zinc-900">
-        <div className="flex flex-col items-center justify-center text-center">
-          <item.icon className=" w-12 h-12 mb-2 text-[#cc2756]" aria-label={item.title} />
-          <h1 className="text-lg font-semibold">{item.title}</h1>
-          <p className="font-thin text-sm mt-2">{item.description}</p>
-        </div>
+  {/* Heading */}
+  
+
+  {/* Scrolling Service Cards */}
+  <div className="w-full md:mt-5 lg:mt-20 lg:mb-20 mb-5">
+    <div className="overflow-hidden">
+      <div className="animate-scroll flex gap-5">
+        {[...services, ...services].map((item, index) => (
+          <div key={index} className="flex-shrink-0 w-64 p-4 border rounded-2xl shadow-md bg-white dark:bg-zinc-900">
+            <div className="flex flex-col items-center justify-center text-center">
+              <item.icon className="w-12 h-12 mb-2 text-[#cc2756]" aria-label={item.title} />
+              <h1 className="text-lg font-semibold">{item.title}</h1>
+              <p className="font-thin text-sm mt-2">{item.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
-    ))}
+    </div>
   </div>
+
+  {/* Bottom HR */}
+  <hr className='mx-5 md:mx-10 mt-5'/>
+  <hr className='mx-5 md:mx-10'/>
 </div>
 
-        <hr className='mx-5 md:mx-10 mt-5'/>
-        <hr className='mx-5 md:mx-10'/>
-    </div>
   )
 }

@@ -76,7 +76,7 @@ body{
  #googlefont{
     font-family: "Fraunces", serif;
  } 
-/* #services scroll bar */
+/* services scroll bar */
 @keyframes scroll {
   0% {
     transform: translateX(0%);

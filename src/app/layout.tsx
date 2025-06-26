@@ -76,7 +76,7 @@ export default function RootLayout({
 
 
           {/* resume & dark mode navigation */}
-      <div className="container max-w-[1440px] mx-auto relative">
+      <div className="container max-w-[1440px] mx-auto">
         
          <Image src={'/images/backimg.jpg'} alt="" width={500} height={500} 
          className="h-20 w-full"/>
