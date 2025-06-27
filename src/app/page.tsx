@@ -29,7 +29,7 @@ export default function Home() {
 
     <hr className="border border-white mt-2 relative mx-20" />
     {/* profile section  */}
-    <div className="max-w-lg h-screen mx-auto relative pt-3">
+    <div className="max-w-lg h-screen mx-2 md:mx-auto relative pt-3">
       <h1 className="text-xl md:text-3xl font-bold text-center text-white pt-3">
         Mussarat Shamsher
       </h1>
