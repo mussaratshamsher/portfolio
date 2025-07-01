@@ -23,7 +23,7 @@ const images = [
   },
   {
     src: "/images/img3.JPG",
-    link: "https://hackthonecommerce.vercel.app/",
+    link: "https://figma-website-three.vercel.app/",
   },
   {
     src: "/images/img1.JPG",
