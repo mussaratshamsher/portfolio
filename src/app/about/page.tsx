@@ -47,8 +47,8 @@ export default function About() {
       </ScrollOverlap>
 
       {/* section 3 */}
-       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center mt-5 md:mt-10 lg:mt-10 
-      " id="googlefont">💼 Services I Provide</h1>
+       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center mt-5 md:mt-10 lg:mt-10 animate-pulse
+      " id="googlefont">	💻 Services I Provide</h1>
       <ScrollOverlap>
         <Services />
       </ScrollOverlap>
@@ -56,7 +56,7 @@ export default function About() {
       {/* section 4 */}
       <ScrollOverlap>
         <div className="flex flex-col mt-3 md:mt-5 lg:mt-20 mb-5 lg:mb-32">
-          <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10" id="googlefont">Why Hire Me?</h1>
+          <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10 animate-pulse" id="googlefont">👨‍💻 Why Hire Me?</h1>
           <p className="text-justify mx-2 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
             Choose me for my passion for building modern web applications and my commitment to creating responsive and visually appealing user
             experiences. With a strong foundation in technologies like Next.js, TypeScript, and Python, I am well-equipped to tackle a variety
@@ -70,9 +70,10 @@ export default function About() {
 
       <ScrollOverlap>
         <div className="flex flex-col mt-3 md:mt-5 mb-5 lg:mb-32">
-          <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10" id="googlefont">Get in Touch</h1>
-          <p className="text-justify mx-2 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
-            I am always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out!
+        <h1 className="text-xl lg:text-3xl font-bold text-center mt-2 md:mt-5 lg:mt-10 animate-bounce" id="googlefont">📞 Get in Touch</h1>
+        <p className="text-justify mx-2 md:mx-5 lg:mx-20 mt-5 lg:mt-10">
+  I am always open to new opportunities and collaborations. Whether you have a project in mind or just want to 
+  connect, feel free to reach out! 
 
             {/*social links navigation  */}
             <div className="w-full mx-auto flex gap-2 md:gap-4 pt-3 justify-center animate_animated animate__backInUp mt-5 lg:mt-10">
@@ -98,8 +99,9 @@ hover:bg-[rgb(168,34,85)] hover:text-white"><BsWhatsapp className="hover:scale-1
               </Link>
 <Link href="https://www.freelancer.com/u/MussaratShamsher" target="blank"
 className="animate__animated animate__backInUp animate__delay-2s py-3 px-4 md:py-5 md:px-6 border shadow-md
- rounded-full hover:shadow-lg shadow-gray-200 hover:bg-[rgb(168,34,85)] ">
-<SiFreelancer className="hover:scale-150 duration-300 delay-300 text-[rgb(168,34,85)]" />
+ rounded-full hover:shadow-lg shadow-gray-200 hover:bg-[rgb(168,34,85)] text-[rgb(168,34,85)]
+ hover:shadow-gray-300 hover:text-white">
+<SiFreelancer className="hover:scale-150 duration-300 delay-300" />
           </Link>
          </div>
             <hr className="mx-5 md:mx-10 mt-10 lg:mt-20" />

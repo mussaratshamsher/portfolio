@@ -20,7 +20,7 @@ export const services = [
 
   {id: 4,icon: Share,title: 'App Integration',description: 'Seamlessly connect APIs, third-party tools, and frontend apps.'},
 
-  {id: 5,icon: Bug,title: 'Web App Testing',description: 'Perform UI and functionality testing to ensure bug-free apps.'},
+  {id: 5, icon: Bug, title: 'Web App & API Testing', description: 'Conduct UI testing, functionality checks, and API validation to ensure bug-free and scalable apps.'},
 
   {id: 6,icon: RefreshCw,title: 'Website Redesign',description: 'Modernize outdated designs for better usability and performance.'},
 

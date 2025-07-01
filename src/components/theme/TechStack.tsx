@@ -2,19 +2,23 @@ import React from 'react'
 
 
 const tech = [
-    { id: 1, name:'Frontend', skills:'HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, TypeScript, Next.js'},
-    {id: 2, name:'UI Components', skills:'ShadCN UI, Framer Motion, DaisyUI, Swipperjs, React Slick, Headless UI'},
-    {id: 3, name:'Backend & APIs', skills:'Python, REST APIs'},
-    {id: 4, name:'AI & ML', skills:'OpenAI SDK, Chainlit, Agentic AI (in-progress)'},
-    {id: 5, name:'Data Handling', skills:'JSON, Pandas (basic), API integration'},
-    {id: 6, name:'Tools & Platforms', skills:'Git, GitHub, VS Code, Streamlit, Vercel, Anaconda'},
-    {id: 7, name:'Design Systems', skills:'Figma to Code Conversion, Responsive Design Principles'},
-    {id:8, name:'Testing & Debugging', skills:'VS Code Debugger, Browser DevTools, Postman, Lighthouse'},
+    { id: 1, name:'🖥️ Frontend', skills:'HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, TypeScript, Next.js' },
+
+{ id: 2, name:'🧩 UI Components', skills:'ShadCN UI, Framer Motion, DaisyUI, Swiper.js, React Slick, Headless UI' },
+
+{ id: 3, name:'⚙️ Backend & APIs', skills:'Python, REST APIs' },
+
+{ id: 4, name:'🤖 AI & ML', skills:'OpenAI SDK, Chainlit, Agentic AI (in-progress)' },
+
+{ id: 5, name:'🗄️ Data Handling', skills:'JSON, Pandas (basic), API integration' },
+{ id: 6, name:'🛠️ Tools & Platforms', skills:'Git, GitHub, VS Code, Streamlit, Vercel, Anaconda' },
+{ id: 7, name:'🎨 Design Systems', skills:'Figma to Code Conversion, Responsive Design Principles' },
+{ id:8, name:'🐞 Testing & Debugging', skills:'VS Code Debugger, Browser DevTools, Postman, Lighthouse' },
 ]
 export default function TechStack() {
   return (
     <div className="h-auto flex flex-col items-center justify-center p-2 md:p-4 rounded-lg shadow-md">
-       <h1 className=" text-xl lg:text-3xl font-bold text-center" id="googlefont">🛠️ My Tech Stack</h1>
+    <h1 className=" text-xl lg:text-3xl font-bold text-center animate-bounce" id="googlefont">🛠️ My Tech Stack</h1>
         <p className="text-lg mb-6">Here are the technologies and tools I work with:</p>
         
         <div className='h-auto grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 lg:gap-10 mt-2 lg:mt-10' id='googlefont'>

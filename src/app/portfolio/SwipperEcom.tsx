@@ -53,7 +53,7 @@ export default function SwiperEcom() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <a href={image.link} target="_blank" rel="noopener noreferrer">
-                <Image src={image.src} alt={`Slide ${index + 1}`} width={100} height={100}/>
+                <Image src={image.src} alt={`Slide ${index + 1}`} width={1200} height={800}/>
               </a>
             </SwiperSlide>
           ))}
@@ -71,7 +71,8 @@ export default function SwiperEcom() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <a href={image.link} target="_blank" rel="noopener noreferrer">
-                <Image src={image.src} alt={`Thumb ${index + 1}`} width={100} height={100}/>
+                <Image src={image.src} alt={`Thumb ${index + 1}`} width={150} height={100}
+                style={{ objectFit: 'cover', width: '100%', height: 'auto' }}/>
               </a>
             </SwiperSlide>
           ))}

@@ -15,7 +15,6 @@ body{
     box-shadow: 0px 0px 10px rgb(36, 36, 36),
                 0px 0px 20px rgb(33, 33, 33);            
 }  
-
 .button:hover::after {  
     content: '';  
     position: absolute;  
@@ -30,7 +29,6 @@ body{
     animation-iteration-count: infinite ;
     animation-duration: 3s;
 }  
-
 @keyframes ripple {  
     to {  
         transform: translate(-50%, -50%) scale(1);  
@@ -38,9 +36,7 @@ body{
     }  
 }
 
-
-/* text gradient  */
-  
+/* text gradient  */ 
 .text-gradient {
     font-size: 2rem; 
     font-weight: bold; 
@@ -58,8 +54,7 @@ body{
     -webkit-background-clip: text; /* For WebKit/Blink (Chrome, Safari) */  
     background-clip: text; /* Standard background-clip */  
     animation: gradient-animation 5s linear infinite; /* Control speed of animation */  
-}  
-  
+}    
 @keyframes gradient-animation {  
     0% {  
         background-position: 0% 50%; /* Starting position of the gradient */  
@@ -92,23 +87,18 @@ body{
   animation-play-state: running;
   width: max-content;
 }
-
 .animate-scroll:hover {
   animation-play-state: paused;
 }
-
-
 /*  navigation slide side bar*/  
 
 /* WebKit browsers (Chrome, Safari) */  
 ::-webkit-scrollbar {  
     width: 12px; /* Width of the scrollbar */  
   }  
-  
   ::-webkit-scrollbar-track {  
     background: #f7aac0; /* Background of the scrollbar track */  
-  }  
-  
+  }    
   ::-webkit-scrollbar-thumb {  
     background:  rgb(237, 59, 92); /* Scrollbar color */  
     border-radius: 10px; /* Rounded edges */  
