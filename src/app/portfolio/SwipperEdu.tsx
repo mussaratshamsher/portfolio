@@ -15,7 +15,7 @@ import Image from "next/image";
 const images = [
   {
     src: "/images/img13.JPG",
-    link: "https://multilingual-ai-agent.streamlit.app/",
+    link: "https://multilingual-agent.streamlit.app/",
   },
   {
     src: "/images/img14.JPG",
