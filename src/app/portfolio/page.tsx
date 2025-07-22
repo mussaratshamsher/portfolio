@@ -66,6 +66,8 @@ styling, resulting in clean and maintainable code. My strong proficiency in Type
 </div>
  <hr className='mx-5 md:mx-10 mt-5'/>
  <hr className='mx-5 md:mx-10'/>
+  {/* Glimpse of My Projects */}
+   <h1 className='text-lg md:text-2xl text-center font-bold mt-3 p-2'  id='googlefont'><b>A Glimpse of My Projects</b></h1>
 
          {/* Swipper Business & Ecommerce Gallery */}
 <div className='grid grid-cols-1 lg:grid-cols-2 mt-5 lg:mt-10'>
